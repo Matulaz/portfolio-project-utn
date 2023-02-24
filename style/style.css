@@ -139,7 +139,12 @@ header>div{
 }
 
 .hero-info{
-    width:50%
+    width:50%;
+    margin-top:40px
+}
+
+.hero-resume>h3, .hero-resume>p{
+    padding-bottom: 40px;
 }
 
 .hero-header{
@@ -149,5 +154,70 @@ header>div{
 }
 
 .hero-img{
-    padding-left: 180px;
+    margin-left: 140px;
+}
+
+.line{
+    border-left: 1px solid var(--grey);
+    height: 100%;
+    margin-top: 20px;
+    transform: rotate(45deg);
+}
+
+span{
+    font-weight: 200;
+    font-family: 'Assistant', sans-serif;
+    color:var(--grey);
+    font-size:1em;
+}
+
+.hero-contact{
+    padding-top: 100px;
+}
+
+.hero-contact>p{
+    padding:10px;
+}
+
+.hero-img{
+    padding-top:40px;
+    padding-left:160px;
+}
+
+.hero-resume>h3{
+    font-size:1.2em;
+
+}
+
+/*EDUCACION Y EXPERIENCIA*/
+.education-title{
+    margin:100px 0px;
+}
+
+.education div>h3{
+    font-size:1em;
+}
+
+.ed-exp-main{
+    display:flex;
+    font-size:0.5em;
+}
+
+.ed-card{
+    padding:20px 0px;
+}
+
+.experience{
+    display:flex;
+    flex:wrap;
+}
+
+.exp-card{
+    width:100px;
+    padding:20px;
+    /* border:red solid; */
+}
+
+.bi.bi-arrows-fullscreen{
+    font-size:2.5em;
 }
