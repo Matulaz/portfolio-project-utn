@@ -129,3 +129,25 @@ header>div{
     color:var(--grey);
 }
 
+/* HERO */
+
+
+.hero-main{
+    display:flex;
+    justify-content: left;
+    padding-left: 80px;
+}
+
+.hero-info{
+    width:50%
+}
+
+.hero-header{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.hero-img{
+    padding-left: 180px;
+}
