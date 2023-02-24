@@ -20,7 +20,7 @@ https://www.behance.net/gallery/113452517/Industrial-product-design-portfolio?tr
 :root{
     --black: #000000;
     --white: #ffffff;
-    --grey: #b3b0b0;
+    --grey: #929191;
 }
 
 .hero-img>img{
@@ -35,7 +35,14 @@ body{
 }
 
 header{
+    height: 100vh;
+}
+.quote{
     height: 80vh;
+    width:600px;
+    padding-left: 80px;
+    padding-top:120px;
+    font-size:1.8em
 }
 
 h3{
@@ -47,5 +54,78 @@ h4{
     font-weight: 200;
     font-family: 'Assistant', sans-serif;
     color:var(--grey);
-    font-size:0.9em;
+    font-size:0.75em;
 }
+
+.quote>h4{
+    font-size:0.7em;
+}
+
+header>h1{
+    /* height:70vh; */
+    padding: 80px 0px 300px 80px;
+    font-size:8em;
+}
+
+header>div{
+    font-size:1.7em;
+    padding-left:80px;
+}
+
+.bi.bi-chevron-compact-down{
+    display:block;
+    text-align: center;
+    padding-top:10px;
+    font-size:1.5em;
+}
+
+/*CSS del INDEX*/
+
+.index{
+    display:flex;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+.card, .card-01{
+    display: flex;
+    align-items: center;
+    width:200px;
+    height:200px;
+}
+
+.card-01-container{
+    padding-left: 80px;
+    display:flex;
+    height: 400px;
+    align-items:stretch
+}
+
+.card-01{
+    display:flex;
+}
+
+.card>h2, .card-01>h2{
+    font-size:4em;
+}
+
+.index-cards{
+    width:700px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sect{
+    font-size: 2em;
+    padding-left: 80px;
+}
+
+.card>div>p, .card-01>div>p{
+    font-size:0.8em;
+    padding-bottom:10px;
+    padding-left:20px;
+}
+
+.p-grey{
+    color:var(--grey);
+}
+
